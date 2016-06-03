@@ -1,4 +1,6 @@
 <?php
+return mail('robert.sabiryanov@gmail.com','test@ttt.com','ssss',null);
+
 // Check for empty fields
 if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
